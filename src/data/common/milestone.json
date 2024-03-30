@@ -1,0 +1,28 @@
+{
+  "__type": "milestone",
+  "milestone": {
+    "title": "Vibrant IT’s ",
+    "titleHighlight": "Milestones",
+    "indexTitleUp": "Fueling Success: Our",
+    "indexTitleHighlight": "Impact Snapshot",
+    "description": "Explore the friendly face of our stats. From project success rates to client satisfaction, our numbers tell a story of innovation, reliability, and exceptional IT solutions.",
+    "boxes": [
+      {
+        "title": "40+",
+        "description": "Employees"
+      },
+      {
+        "title": "12",
+        "description": "Years in IT"
+      },
+      {
+        "title": "20+",
+        "description": "Mobile Apps"
+      },
+      {
+        "title": "350+",
+        "description": "Happy Clients"
+      }
+    ]
+  }
+}

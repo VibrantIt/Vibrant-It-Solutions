@@ -1,0 +1,13 @@
+{
+  "__type": "solution",
+  "solution": {
+    "title": "Reach for",
+    "titleHighlight": "Solution",
+    "image": "/images/obejct.svg",
+    "description": "Get solutions for your business from the most innovative hands in tech.",
+    "button": {
+      "buttonText": "Contact Now",
+      "icon": "/images/phone.svg"
+    }
+  }
+}

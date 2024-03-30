@@ -1,0 +1,25 @@
+{
+  "__type": "testimonial",
+  "testimonials": {
+    "testimonial": [
+      {
+        "testimony": "As a Co-founder, I’m impressed by the infinite potential of the Vibrant Team. It’s not just about tech, it’s about helping businesses and making them stand out from their competitors. That’s our goal.",
+        "name": "Aayush Agrawal",
+        "bio": "CTO, Parle Inc.",
+        "image": "/images/Parle-Logo-500x281 1.svg"
+      },
+      {
+        "testimony": "As a Co-founder, I’m impressed by the infinite potential of the Vibrant Team. It’s not just about tech, it’s about helping businesses and making them stand out from their competitors. That’s our goal.",
+        "name": "Aayush Ambani",
+        "bio": "CEO, Parle Inc.",
+        "image": "/images/Parle-Logo-500x281 1.svg"
+      },
+      {
+        "testimony": "As a Co-founder, I’m impressed by the infinite potential of the Vibrant Team. It’s not just about tech, it’s about helping businesses and making them stand out from their competitors. That’s our goal.",
+        "name": "Aayush Adani",
+        "bio": "COO, Parle Inc.",
+        "image": "/images/Parle-Logo-500x281 1.svg"
+      }
+    ]
+  }
+}

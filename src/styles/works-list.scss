@@ -1,0 +1,555 @@
+#main.works {
+  &:after {
+    display: none;
+  }
+  // &:after {
+  //   position: absolute;
+  //   background-image: url("/images/blue-tint/backdrop.png");
+  //   right: unset;
+  //   left: 0;
+  //   height: 200vh;
+  //   overflow: hidden;
+  //   width: 100%;
+  //   background-position: top left;
+  //   background-size: contain;
+  // }
+  h1 .line1 {
+    color: var(--colors-gray-primary-text, #090a0d);
+    font-family: Golos Text;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin-left: 0;
+  }
+  h1 .line2 {
+    font-family: Golos Text;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    background: var(--colors-gradient-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  //   .project {
+  //     display: flex;
+  //     margin-top: 4rem;
+  //     flex-direction: row;
+  //     align-items: flex-start;
+  //     justify-content: space-between;
+  //   }
+  //   .recent-projects:nth-child(2) {
+  //     margin-top: 4.25rem;
+  //   }
+
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4.5rem 4rem;
+  }
+
+  .recent-projects:nth-child(even) {
+    margin-top: 4.25rem;
+  }
+
+  .project h3 {
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    font-family: "Golos Text";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 1.5rem */
+    margin-top: 2.5rem;
+  }
+
+  .work {
+    margin-top: 7.375rem;
+    margin-bottom: 5.5rem;
+  }
+
+  .workP {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3.56rem;
+    margin-top: 1rem;
+    color: var(--Colors-Gray-Secondary-Text, #676a70);
+    font-family: "Golos Text";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 1.6rem */
+  }
+
+  .recent-projects {
+    width: 39.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .recent-projects img {
+    width: 100%;
+  }
+
+  .view-project {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    font-family: Golos Text;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    // border-bottom: 1px solid black;
+    flex-shrink: 0;
+    gap: 0.75rem;
+  }
+  .view-project a {
+    display: flex;
+    gap: 3px;
+    padding-bottom: 0.438rem;
+    border-bottom: 1px solid black;
+  }
+
+  .view-project img {
+    align-self: center;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  .view-moreBTN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .view-project > a:-webkit-any-link {
+    color: inherit;
+  }
+  .button {
+    display: flex;
+    width: 15rem;
+    height: 3.5rem;
+    padding: 1.125rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    background: var(--colors-brand-primary);
+    color: #fff;
+    font-family: Golos Text;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.01rem;
+    margin-top: 5rem;
+    margin-left: 0;
+    box-shadow: inset 0 0 0 0 #1b2250;
+    transition:
+      color 0.3s ease-in-out,
+      box-shadow 0.3s ease-in-out;
+  }
+  .button img {
+    width: 1.25rem;
+    height: 1.25rem;
+    justify-self: center;
+    margin-left: 0.49rem;
+  }
+  .button:hover {
+    box-shadow: inset 0 -3.5rem 0 0 #1b2250;
+  }
+  .solution {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    margin-top: 8.75rem;
+  }
+  .solution h2 {
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    font-family: Golos Text;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.25rem;
+    margin-bottom: 1rem;
+  }
+  .head1 {
+    font-family: Golos Text;
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    font-size: 2.5rem;
+  }
+  .head2 {
+    font-family: Golos Text;
+    background: var(
+      --Colors-Gradient-Gradient,
+      linear-gradient(
+        90deg,
+        #3f6fea 0%,
+        #3f70ea 6.67%,
+        #3e72e9 13.33%,
+        #3d77e9 20%,
+        #3c7de7 26.67%,
+        #3b85e6 33.33%,
+        #398fe4 40%,
+        #3799e2 46.67%,
+        #34a4e1 53.33%,
+        #32afdf 60%,
+        #30b8dd 66.67%,
+        #2fc1dc 73.33%,
+        #2ec7da 80%,
+        #2dcbda 86.67%,
+        #2cced9 93.33%,
+        #2ccfd9 100%
+      )
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .solution p {
+    margin-bottom: 2rem;
+    margin-top: 0;
+  }
+  .sleft {
+    max-width: 37.83769rem;
+    height: auto;
+  }
+  .sleft img {
+    width: 100%;
+  }
+
+  .sright {
+    max-width: 22.4375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .sright p {
+    color: var(--Colors-Gray-Secondary-Text, #676a70);
+    font-family: Golos Text;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: left;
+  }
+  .Cbutton {
+    width: 12.9375rem;
+    height: 3.5rem;
+    display: inline-flex;
+    padding: 1.125rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--colors-brand-primary);
+    color: #fff;
+    font-family: Golos Text;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.01rem;
+    text-transform: capitalize;
+    margin: 0;
+    box-shadow: inset 0 0 0 0 #1b2250;
+    transition:
+      color 0.3s ease-in-out,
+      box-shadow 0.3s ease-in-out;
+  }
+  .Cbutton img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  .Cbutton:hover {
+    box-shadow: inset 0 -3.5rem 0 0 #1b2250;
+  }
+}
+
+/* -----------for small screen devices------------ */
+@media screen and (max-width: 1440px) and (min-width: 769px) {
+  #main.works {
+    h1 .line1 {
+      color: var(--colors-gray-primary-text, #090a0d);
+      font-family: Golos Text;
+      font-size: 3.88vw;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+      margin-left: 0;
+    }
+    h1 .line2 {
+      font-family: Golos Text;
+      font-size: 3.88vw;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+      background: var(--colors-gradient-gradient);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    // .project {
+    //   display: flex;
+    //   margin-top: 4vw;
+    //   flex-direction: row;
+    //   align-items: flex-start;
+    //   justify-content: space-between;
+    // }
+
+    .project {
+      gap: 4.5vw 4vw;
+    }
+
+    .work {
+      margin-top: 7.375vw;
+      margin-bottom: 5.5vw;
+    }
+
+    .recent-projects:nth-child(even) {
+      margin-top: 4.72vw;
+    }
+    .project h3 {
+      font-size: 1.66vw;
+
+      margin-top: 2.77vw;
+    }
+    .workP {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 1.11vw;
+      gap: 3.95vw;
+      margin-top: 1.11vw;
+    }
+
+    .recent-projects {
+      width: 42vw;
+      display: flex;
+      flex-direction: column;
+    }
+    .recent-projects img {
+      width: 100%;
+    }
+
+    .view-project {
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      color: var(--Colors-Gray-Primary-Text, #090a0d);
+      font-family: Golos Text;
+      font-size: 1.11vw;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160%;
+      //   border-bottom: 1px solid black;
+      flex-shrink: 0;
+      gap: 0.75vw;
+    }
+    .view-project a {
+      padding-bottom: 0.438vw;
+      border-bottom: 1px solid black;
+    }
+
+    .view-project img {
+      width: 1.38vw;
+      height: 1.38vw;
+    }
+    .solution {
+      gap: 1vw;
+      padding: 0 8vw;
+      margin-top: 8.75vw;
+    }
+    .head1 {
+      font-family: Golos Text;
+      color: var(--Colors-Gray-Primary-Text, #090a0d);
+      font-size: 2.5vw;
+    }
+    .solution h2 {
+      margin-bottom: 1vw;
+    }
+    .solution p {
+      margin-bottom: 2vw;
+    }
+    .sleft {
+      max-width: 37.83769vw;
+      min-width: 28vw;
+    }
+    .sleft img {
+      width: 100%;
+    }
+    .sright {
+      max-width: 22.4375vw;
+    }
+
+    .sright h2 {
+      font-size: 2.5vw;
+    }
+    .sright p {
+      font-size: 1vw;
+    }
+    .Cbutton {
+      width: 12.9375vw;
+      height: 3.5vw;
+      padding: 1.125vw 2.5vw;
+      gap: 0.5vw;
+      font-size: 1vw;
+      letter-spacing: -0.01vw;
+    }
+    .Cbutton img {
+      width: 1.25vw;
+      height: 1.25vw;
+    }
+  }
+}
+/* -----------for small screen devices------------ */
+@media only screen and (max-width: 768px) {
+  #main.works {
+    &:after {
+      top: 0;
+      width: 100vw;
+      height: 150vh;
+      background-image: url("/images/blue-tint/our-work-mob.png");
+      background-size: cover;
+      display: block;
+    }
+    .work {
+      margin-top: 3.29rem;
+      padding: 0 1rem;
+      margin-bottom: 0;
+    }
+    h1 .line1 {
+      font-size: 2rem;
+    }
+    h1 .line2 {
+      font-size: 2rem;
+    }
+    .our-works {
+      padding: 0 1rem;
+    }
+    .project {
+      display: flex;
+      margin-top: 2.56rem;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 3rem;
+    }
+
+    .recent-projects:nth-child(even) {
+      margin-top: 0rem;
+    }
+
+    .project h3 {
+      color: var(--Colors-Gray-Primary-Text, #090a0d);
+      font-family: "Golos Text";
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160%;
+      margin-top: 1rem;
+    }
+    .workP {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-top: 0.5rem;
+      color: var(--Colors-Gray-Secondary-Text, #676a70);
+
+      /* Typography/Small Text */
+      font-family: "Golos Text";
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%; /* 1.4rem */
+    }
+
+    .recent-projects {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .recent-projects img {
+      width: 100%;
+    }
+
+    .view-project {
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      color: var(--Colors-Gray-Primary-Text, #090a0d);
+      font-family: "Golos Text";
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160%; /* 1.4rem */
+      //   border-bottom: 1px solid black;
+      flex-shrink: 0;
+      gap: 0.75rem;
+    }
+    .view-project img {
+      align-self: center;
+      width: 1.25rem;
+      height: 1.25rem;
+    }
+    .view-moreBTN {
+      padding: 0 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .button {
+      display: flex;
+      width: 100%;
+      padding: 0.875rem 1.875rem;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--colors-brand-primary);
+      color: #fff;
+      font-family: "Golos Text";
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%; /* 0.875rem */
+      letter-spacing: -0.00875rem;
+      text-transform: capitalize;
+      margin-top: 4rem;
+      margin-left: 0;
+      box-shadow: inset 0 0 0 0 #1b2250;
+      transition:
+        color 0.3s ease-in-out,
+        box-shadow 0.3s ease-in-out;
+    }
+
+    .button:hover {
+      box-shadow: inset 0 -3.5rem 0 0 #1b2250;
+    }
+
+    .solution {
+      flex-direction: column;
+      gap: 1rem;
+      padding: 0 1rem;
+      margin-top: 4rem;
+      align-items: flex-start;
+    }
+    .solution h2 {
+      font-size: 2rem;
+    }
+    .head1 {
+      font-size: 2rem;
+    }
+    .sleft img {
+      width: 100%;
+    }
+
+    .sright {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,333 @@
+#main.terms-and-conditions {
+  &:after {
+    display: none;
+  }
+  /* <!---- CAREERS SECTION ----> */
+  .tc-tech-tales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6.75rem;
+    padding: 0 6rem;
+  }
+  .tc-tales {
+    text-align: center;
+    width: 44.18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h5 {
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    text-align: center;
+    font-family: Golos Text;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.9375rem;
+    margin-bottom: 0.75rem;
+  }
+  h1 .line1 {
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    text-align: center;
+    font-family: Golos Text;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  h1 .line2 {
+    background: var(
+      --Colors-Gradient-Gradient,
+      linear-gradient(
+        90deg,
+        #3f6fea 0%,
+        #3f70ea 6.67%,
+        #3e72e9 13.33%,
+        #3d77e9 20%,
+        #3c7de7 26.67%,
+        #3b85e6 33.33%,
+        #398fe4 40%,
+        #3799e2 46.67%,
+        #34a4e1 53.33%,
+        #32afdf 60%,
+        #30b8dd 66.67%,
+        #2fc1dc 73.33%,
+        #2ec7da 80%,
+        #2dcbda 86.67%,
+        #2cced9 93.33%,
+        #2ccfd9 100%
+      )
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Golos Text;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  .tc-tales p {
+    width: 34rem;
+    color: var(--Colors-Gray-Secondary-Text, #676a70);
+    font-family: Golos Text;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 1.6rem */
+    margin-top: 1.5rem;
+  }
+
+  .tnc-details {
+    display: flex;
+    gap: 4rem;
+    padding: 0rem 23.5rem;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    margin-top: 5rem;
+  }
+  h4 {
+    display: flex;
+    align-self: flex-start;
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    font-family: Golos Text;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  p {
+    color: var(--Colors-Gray-Secondary-Text, #676a70);
+    font-family: Golos Text;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  /* Added CSS for list*/
+  .tc-background ul {
+    list-style-type: disc;
+    color: var(--Colors-Gray-Secondary-Text, #676a70);
+    font-family: Golos Text;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  .tc-background {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+/* -----------for small screen devices------------ */
+@media screen and (max-width: 1440px) and (min-width: 769px) {
+  #main.terms-and-conditions {
+    padding: 0 3.5vw;
+    /* <!---- CAREERS SECTION ----> */
+    .tc-tech-tales {
+      margin-top: 6.75vw;
+      padding: 0 6vw;
+    }
+    .tc-tales {
+      width: 44.18vw;
+    }
+    h5 {
+      font-size: 1.25vw;
+      line-height: 1.9375vw;
+      margin-bottom: 0.75vw;
+    }
+    h1 .line1 {
+      font-size: 3.5vw;
+    }
+    h1 .line2 {
+      font-size: 3.5vw;
+    }
+    .tc-tales p {
+      width: 34vw;
+      font-size: 1vw;
+      margin-top: 1.5vw;
+    }
+
+    .tnc-details {
+      gap: 4vw;
+      padding: 0vw 28.5vw;
+      gap: 4vw;
+      margin-top: 5vw;
+    }
+    h4 {
+      font-size: 1.5vw;
+    }
+    p {
+      font-size: 0.875vw;
+    }
+    .tc-background ul {
+      font-size: 0.875vw;
+    }
+    .tc-background {
+      gap: 1.5vw;
+    }
+  }
+}
+
+/* -----------for small screen devices------------ */
+@media only screen and (max-width: 768px) {
+  #main.terms-and-conditions {
+    padding: 0 1rem;
+    /* <!---- HEADER SECTION ----> */
+    // header {
+    //   margin-top: 0rem;
+    //   align-items: center;
+    //   padding-top: 2rem;
+    // }
+    // header img {
+    //   width: 5.6875rem;
+    //   height: 1.9637rem;
+    // }
+    // .menu {
+    //   display: block;
+    //   position: relative;
+    // }
+
+    // .close {
+    //   display: block;
+    //   position: absolute;
+    //   right: -1rem;
+    //   top: 2rem;
+    // }
+    // .menu img {
+    //   width: 1.5rem;
+    //   height: 1.5rem;
+    //   flex-shrink: 0;
+    // }
+    // nav ul {
+    //   display: none;
+    // }
+    &:after {
+      display: block;
+    }
+    /* <!---- CAREERS SECTION ----> */
+    .tc-tech-tales {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2.54rem;
+      padding: 0;
+    }
+    .tc-tales {
+      text-align: center;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    h5 {
+      color: var(--Colors-Gray-Primary-Text, #090a0d);
+      text-align: center;
+      font-family: Golos Text;
+      font-size: 0.75rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.03125rem;
+      margin-bottom: 1rem;
+    }
+    h1 .line1 {
+      color: var(--Colors-Gray-Primary-Text, #090a0d);
+      text-align: center;
+      font-family: Golos Text;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.625rem;
+    }
+    h1 .line2 {
+      background: var(
+        --Colors-Gradient-Gradient,
+        linear-gradient(
+          90deg,
+          #3f6fea 0%,
+          #3f70ea 6.67%,
+          #3e72e9 13.33%,
+          #3d77e9 20%,
+          #3c7de7 26.67%,
+          #3b85e6 33.33%,
+          #398fe4 40%,
+          #3799e2 46.67%,
+          #34a4e1 53.33%,
+          #32afdf 60%,
+          #30b8dd 66.67%,
+          #2fc1dc 73.33%,
+          #2ec7da 80%,
+          #2dcbda 86.67%,
+          #2cced9 93.33%,
+          #2ccfd9 100%
+        )
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: Golos Text;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.625rem;
+    }
+    .tc-tales p {
+      width: 100%;
+      color: var(--Colors-Gray-Secondary-Text, #676a70);
+      font-family: Golos Text;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+      margin-top: 1rem;
+    }
+
+    .tnc-details {
+      display: flex;
+      gap: 4rem;
+      padding: 0;
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+      align-self: stretch;
+      margin-top: 3rem;
+    }
+    h4 {
+      display: flex;
+      align-self: flex-start;
+      color: var(--Colors-Gray-Primary-Text, #090a0d);
+      font-family: Golos Text;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+    }
+    p {
+      color: var(--Colors-Gray-Secondary-Text, #676a70);
+      font-family: Golos Text;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+    }
+    .tc-background ul {
+      list-style-type: disc;
+      color: var(--Colors-Gray-Secondary-Text, #676a70);
+      font-family: Golos Text;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+    }
+    .tc-background {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  }
+}

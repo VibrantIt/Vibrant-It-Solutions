@@ -1,0 +1,553 @@
+#main.work {
+  &:after {
+    display: none;
+  }
+  header {
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+    padding-top: 2rem;
+  }
+  .headroom-wrapper {
+    left: -3.5rem;
+  }
+
+  padding: 0;
+  .tuple {
+    margin-top: 9.88rem;
+    padding: 0 9.5rem;
+  }
+  h1 .line2 {
+    font-family: Golos Text;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    background: var(--colors-gradient-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .tuple p {
+    margin-top: 2.19rem;
+    max-width: 34rem;
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    font-family: Golos Text;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+
+  .truck img {
+    margin-top: 5rem;
+    width: 100%;
+  }
+  #mob-view {
+    display: none;
+  }
+
+  /* <!---- INTRODUCTION SECTION ----> */
+  .introduction {
+    margin-top: 8.75rem;
+    display: flex;
+    padding: 0 9.5rem;
+    gap: 6.38rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .intro {
+    max-width: 29rem;
+    width: 50%;
+  }
+  h2 {
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    font-family: Golos Text;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 1.5rem;
+  }
+  .intro p {
+    color: var(--Colors-Gray-Secondary-Text, #676a70);
+    font-family: Golos Text;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  .intro-pic {
+    width: 50%;
+  }
+  .intro-pic img {
+    width: 100%;
+  }
+
+  /* <!---- DETAILS SECTION ----> */
+  .details {
+    margin-top: 8.75rem;
+    padding: 0 3.5rem;
+    width: 100%;
+  }
+  .details img {
+    width: 100%;
+  }
+  #Mdetail-img {
+    display: none;
+  }
+  .achievement {
+    margin-top: 8.75rem;
+    padding: 0 9.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  .achievement .intro {
+    width: 35rem;
+  }
+
+  /* <!---- SAMPLE WORK SECTION ----> */
+  .sw {
+    margin-top: 8.75rem;
+    padding: 0 3.5rem;
+  }
+  .sw1 img {
+    width: 100%;
+  }
+  .sw2 {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sw2 img {
+    width: 50%;
+  }
+
+  /* <!---- RESULT SECTION ----> */
+
+  .result {
+    margin-top: 8.75rem;
+    padding: 0 9.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  .result .intro {
+    width: 35rem;
+  }
+
+  /* <!---- MORE PROJECTS SECTION ----> */
+  .more-projects {
+    margin-top: 8.75rem;
+    padding: 0 3.5rem;
+    background: #f2f4fa;
+  }
+  h2 .head2 {
+    background: var(
+      --Colors-Gradient-Gradient,
+      linear-gradient(
+        90deg,
+        #3f6fea 0%,
+        #3f70ea 6.67%,
+        #3e72e9 13.33%,
+        #3d77e9 20%,
+        #3c7de7 26.67%,
+        #3b85e6 33.33%,
+        #398fe4 40%,
+        #3799e2 46.67%,
+        #34a4e1 53.33%,
+        #32afdf 60%,
+        #30b8dd 66.67%,
+        #2fc1dc 73.33%,
+        #2ec7da 80%,
+        #2dcbda 86.67%,
+        #2cced9 93.33%,
+        #2ccfd9 100%
+      )
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Golos Text;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+  }
+  h2 .head1 {
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    font-family: Golos Text;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+  }
+
+  /* <!---- MORE PROJECTS SECTION ----> */
+  .more-projects {
+    padding: 8.5rem 3.5rem;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 4rem;
+  }
+  .project a:-webkit-any-link {
+    color: inherit;
+  }
+  .project h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  .project p {
+    margin-top: 1rem;
+  }
+  .recent-projects img {
+    width: 100%;
+  }
+  .recent-projects h3 img {
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+  }
+}
+
+/* -----------for small screen devices------------ */
+@media screen and (max-width: 1440px) and (min-width: 769px) {
+  #main.work {
+    header {
+      // padding: 0 3.5vw;
+      margin-left: 3.5vw;
+      margin-right: 3.5vw;
+      padding-top: 2vw;
+    }
+    .headroom-wrapper {
+      left: 0vw;
+    }
+    .tuple {
+      margin-top: 9.88vw;
+      padding: 0 9.5vw;
+    }
+    h1 .line2 {
+      font-size: 3.5vw;
+    }
+
+    .tuple p {
+      margin-top: 2.19vw;
+      max-width: 34vw;
+      font-size: 1vw;
+    }
+    .truck img {
+      margin-top: 5vw;
+      width: 100%;
+    }
+    #mob-view {
+      display: none;
+    }
+
+    /* <!---- INTRODUCTION SECTION ----> */
+    .introduction {
+      margin-top: 8.75vw;
+      padding: 0 9.5vw;
+      gap: 6.38vw;
+    }
+    .intro {
+      max-width: 29vw;
+      width: 50%;
+    }
+    h2 {
+      font-size: 2.5vw;
+      margin-bottom: 1.5vw;
+    }
+    .intro p {
+      font-size: 1vw;
+    }
+    .intro-pic {
+      width: 50%;
+    }
+    .intro-pic img {
+      width: 100%;
+    }
+
+    /* <!---- DETAILS SECTION ----> */
+    .details {
+      margin-top: 8.75vw;
+      padding: 0 3.5vw;
+      width: 100%;
+    }
+    .details img {
+      width: 100%;
+    }
+    #Mdetail-img {
+      display: none;
+    }
+    .achievement {
+      margin-top: 8.75vw;
+      padding: 0 9.5vw;
+      gap: 1.5vw;
+    }
+    .achievement .intro {
+      width: 35vw;
+    }
+
+    /* <!---- SAMPLE WORK SECTION ----> */
+    .sw {
+      margin-top: 8.75vw;
+      padding: 0 3.5vw;
+    }
+    .sw1 img {
+      width: 100%;
+    }
+    .sw2 {
+      margin-top: 2.5vw;
+    }
+    .sw2 img {
+      width: 50%;
+    }
+
+    /* <!---- RESULT SECTION ----> */
+
+    .result {
+      margin-top: 8.75vw;
+      padding: 0 9.5vw;
+      gap: 1.5vw;
+    }
+    .result .intro {
+      width: 35vw;
+    }
+
+    /* <!---- MORE PROJECTS SECTION ----> */
+    .more-projects {
+      margin-top: 8.75vw;
+      padding: 0 3.5vw;
+    }
+    h2 .head2 {
+      font-size: 2.5vw;
+    }
+    h2 .head1 {
+      font-size: 2.5vw;
+    }
+
+    /* <!---- MORE PROJECTS SECTION ----> */
+    .more-projects {
+      padding: 8.5vw 3.5vw;
+    }
+
+    .project {
+      gap: 2vw;
+      margin-top: 4vw;
+    }
+    .project h3 {
+      font-size: 1.5vw;
+      margin-top: 2vw;
+    }
+    .project p {
+      font-size: 0.875vw;
+      margin-top: 1vw;
+    }
+    .recent-projects img {
+      width: 100%;
+    }
+    .recent-projects h3 img {
+      width: 1.5vw;
+      height: 1.5vw;
+      flex-shrink: 0;
+    }
+    footer {
+      padding: 3.56vw 3.5vw 0;
+    }
+  }
+}
+/* -----------for small screen devices------------ */
+@media only screen and (max-width: 768px) {
+  #main.work {
+    &:after {
+      display: block;
+    }
+    header {
+      padding: 0 1rem;
+      margin-left: 0;
+      margin-right: 0;
+      padding-top: 1.5rem;
+    }
+    .headroom-wrapper {
+      left: 0;
+    }
+    &:after {
+      display: none;
+    }
+    .tuple {
+      margin-top: 2.54rem;
+      padding: 0 1rem;
+    }
+
+    h1 .line2 {
+      font-family: Golos Text;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 120%;
+    }
+    .tuple p {
+      color: var(--Colors-Gray-Secondary-Text, #676a70);
+      font-family: Golos Text;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+      margin-top: 1rem;
+    }
+    // #web-view {
+    //   display: none;
+    // }
+    #mob-view {
+      display: none;
+    }
+    .truck img {
+      margin-top: 3rem;
+    }
+
+    /* <!---- INTRODUCTION SECTION ----> */
+    .introduction {
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      padding: 0 1rem;
+      gap: 3.94rem;
+      align-items: center;
+      justify-content: space-between;
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 100vw;
+        height: 768px;
+        z-index: -1;
+        background-image: url("/images/blue-tint/backdropMob.png");
+        background-repeat: no-repeat;
+        left: 0;
+      }
+    }
+    .intro {
+      max-width: 100%;
+      width: 100%;
+    }
+    h2 {
+      color: var(--Colors-Gray-Primary-Text, #090a0d);
+      font-family: Golos Text;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 100%;
+    }
+    .intro p {
+      color: var(--Colors-Gray-Secondary-Text, #676a70);
+      font-family: Golos Text;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+    }
+    .intro-pic {
+      width: 100%;
+    }
+    .intro-pic img {
+      width: 100%;
+    }
+
+    /* <!---- DETAILS SECTION ----> */
+    .details {
+      margin-top: 2.5rem;
+      padding: 0 1rem;
+      width: 100%;
+      overflow: hidden;
+    }
+    #Mdetail-img {
+      display: block;
+    }
+    #detail-img {
+      display: none;
+    }
+
+    /* <!---- ACHIEVEMENT SECTION ----> */
+
+    .achievement {
+      margin-top: 4rem;
+      padding: 0 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.5rem;
+    }
+    .achievement .intro {
+      width: 35rem;
+    }
+
+    /* <!---- SAMPLE WORK SECTION ----> */
+    .sw {
+      margin-top: 4rem;
+      padding: 0 1rem;
+    }
+    .sw1 img {
+      width: 100%;
+    }
+    .sw2 {
+      margin-top: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2.5rem;
+    }
+    .sw2 img {
+      width: 100%;
+    }
+
+    /* <!---- RESULT SECTION ----> */
+
+    .result {
+      margin-top: 4rem;
+      padding: 0 1rem;
+      gap: 1.5rem;
+    }
+    /* <!---- MORE PROJECTS SECTION ----> */
+    .recent-projects img {
+      width: 19.5rem;
+    }
+    .more-projects {
+      margin-top: 4rem;
+      padding: 4rem 0 4rem 1rem;
+    }
+    .more-projects h2 {
+      font-size: 2rem;
+    }
+
+    .project {
+      overflow-x: auto;
+    }
+    .project h3 {
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+    .project p {
+      color: var(--Colors-Gray-Secondary-Text, #676a70);
+      font-family: Golos Text;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+      margin-top: 0.5rem;
+    }
+    footer {
+      padding: 2.5rem 1rem 0;
+    }
+  }
+}

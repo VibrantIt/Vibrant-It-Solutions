@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Golos Text", sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  // outline: 1px solid #f00 !important;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.blur-root {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  -o-filter: blur(5px);
+  transition: 1s filter cubic-bezier(0.19, 1, 0.22, 1);
+  -webkit-transition: 1s -webkit-filter cubic-bezier(0.19, 1, 0.22, 1);
+  -moz-transition: 1s -moz-filter cubic-bezier(0.19, 1, 0.22, 1);
+  -ms-transition: 1s -ms-filter cubic-bezier(0.19, 1, 0.22, 1);
+  -o-transition: 1s -o-filter cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.rotate-down {
+  transition: 0.3s transform ease-in;
+  transform: rotate(180deg);
+}
+
+.rotate-up {
+  transition: 0.3s transform ease-in;
+  transform: rotate(0);
+}
+
+:root {
+  --colors-gray-primary-text: #090a0d;
+  --colors-gray-secondary-text: #676a70;
+  --colors-gradient-gradient: linear-gradient(
+    90deg,
+    #3f6fea 0%,
+    #3f70ea 6.67%,
+    #3e72e9 13.33%,
+    #3d77e9 20%,
+    #3c7de7 26.67%,
+    #3b85e6 33.33%,
+    #398fe4 40%,
+    #3799e2 46.67%,
+    #34a4e1 53.33%,
+    #32afdf 60%,
+    #30b8dd 66.67%,
+    #2fc1dc 73.33%,
+    #2ec7da 80%,
+    #2dcbda 86.67%,
+    #2cced9 93.33%,
+    #2ccfd9 100%
+  );
+  --colors-brand-primary: #4070ea;
+  --colors-brand-secondary: #080f1f;
+}
+// #wrapper .blue::after {
+//   content: "";
+//   width: 72rem;
+//   height: 72rem;
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+//   z-index: -1;
+//   background-image: url("/images/blue-tint/Ellipse 11.png");
+//   background-repeat: no-repeat;
+//   background-position: top right;
+//   background-size: contain;
+// }
+
+#blue-tint {
+  width: 72rem;
+  height: 72rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  background-image: url("/images/blue-tint/Ellipse 11.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+
+#main {
+  max-width: 90rem;
+  padding: 0 3.5rem;
+  margin: 0 auto;
+
+  &:after {
+    content: "";
+    width: 72rem;
+    height: 72rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background-image: url("/images/blue-tint/Ellipse 11.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 769px) {
+  #main {
+    &:after {
+      width: 72vw;
+      height: 72vw;
+    }
+  }
+  #blue-tint {
+    width: 72vw;
+    height: 72vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #main {
+    padding: 0;
+    margin: 0;
+
+    &:after {
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image: url("/images/blue-tint/R-backdropM.png");
+    }
+  }
+}
+
+// Mobile Menu
+.mobile-menu-none {
+}
+
+#main.mobile-menu-true {
+  position: fixed;
+  inset: 0px;
+}
+
+.mobile-menu-false {
+}

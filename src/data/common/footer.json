@@ -1,0 +1,58 @@
+{
+  "__type": "footer",
+  "footer": {
+    "logo": "/images/Group 20.svg",
+    "address": "1/301 Vikrant Khand, Gomti Nagar, Lucknow 201307, India",
+    "social": [
+      {
+        "icon": "/images/insta.svg",
+        "link": "https://www.instagram.com/"
+      },
+      {
+        "icon": "/images/twitter.svg",
+        "link": "https://www.twitter.com/"
+      },
+      {
+        "icon": "/images/fb.svg",
+        "link": "https://www.facebook.com/"
+      }
+    ],
+    "columns": [
+      {
+        "heading": "Company",
+        "elements": [
+          {
+            "text": "About Us",
+            "link": "/about"
+          },
+          {
+            "text": "Contact",
+            "link": "/contact"
+          },
+          {
+            "text": "Clients",
+            "link": "/"
+          }
+        ]
+      },
+      {
+        "heading": "Services",
+        "elements": []
+      },
+      {
+        "heading": "Products",
+        "elements": [
+          {
+            "text": "Easy Invoice Generator"
+          },
+          {
+            "text": "Pharma X"
+          },
+          {
+            "text": "GST Billing POS"
+          }
+        ]
+      }
+    ]
+  }
+}

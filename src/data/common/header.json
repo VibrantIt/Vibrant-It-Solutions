@@ -1,0 +1,35 @@
+{
+  "__type": "header",
+  "header": {
+    "logo": "/images/Group 20.svg",
+    "navItems": [
+      {
+        "item": "About Us",
+        "link": "/about"
+      },
+      {
+        "item": "Services",
+        "link": "/#"
+      },
+      {
+        "item": "Our Works",
+        "link": "/works"
+      },
+      {
+        "item": "Careers",
+        "link": "/career"
+      },
+      {
+        "item": "Blogs",
+        "link": "/blogs"
+      },
+      {
+        "item": "Contact Us",
+        "link": "/contact"
+      }
+    ],
+    "Weblogo": "/images/Group 20.svg",
+    "Moblogo": "/images/Navbar.svg",
+    "DropDownImage": "/images/dropdown1.png"
+  }
+}

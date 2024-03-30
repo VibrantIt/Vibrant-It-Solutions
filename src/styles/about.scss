@@ -1,0 +1,1099 @@
+#main.about {
+  &:after {
+    display: none;
+  }
+  /* <!---- CLIENTS SECTION ----> */
+  .inspire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6.75rem;
+  }
+  .inspiration {
+    text-align: center;
+    width: 41rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h5 {
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    text-align: center;
+    font-family: Golos Text;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.9375rem;
+    margin-bottom: 0.75rem;
+  }
+  h1 .line1 {
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    text-align: center;
+    font-family: Golos Text;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  h1 .line2 {
+    background: var(
+      --Colors-Gradient-Gradient,
+      linear-gradient(
+        90deg,
+        #3f6fea 0%,
+        #3f70ea 6.67%,
+        #3e72e9 13.33%,
+        #3d77e9 20%,
+        #3c7de7 26.67%,
+        #3b85e6 33.33%,
+        #398fe4 40%,
+        #3799e2 46.67%,
+        #34a4e1 53.33%,
+        #32afdf 60%,
+        #30b8dd 66.67%,
+        #2fc1dc 73.33%,
+        #2ec7da 80%,
+        #2dcbda 86.67%,
+        #2cced9 93.33%,
+        #2ccfd9 100%
+      )
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Golos Text;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  .inspiration p {
+    width: 34rem;
+    color: var(--Colors-Gray-Secondary-Text, #555555);
+    text-align: center;
+    font-family: Golos Text;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 1.5rem;
+  }
+
+  /* <!---- ABOUT IMAGES SECTION ----> */
+  .about-images {
+    position: relative;
+    display: flex;
+    flex-shrink: 0;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 8.69rem;
+  }
+  .img1 img {
+    position: absolute;
+    width: 30.875rem;
+    top: -5.19rem;
+    left: 0;
+  }
+  .img4 img {
+    width: 25.8125rem;
+    position: absolute;
+    top: 16.25rem;
+    left: 9.63rem;
+  }
+  .img2 img {
+    width: 25.8125rem;
+    margin-right: 2.8rem;
+  }
+  .img3 img {
+    width: 16.125rem;
+  }
+
+  /* <!---- OUR MISSION SECTION ----> */
+  .our-mission {
+    margin-top: 15rem;
+    background-image: url(/images/about-us/aboutbg.svg);
+    background-color: #080f1f;
+    width: 100%;
+    height: 34.93rem;
+    display: flex;
+    padding: 8.75rem 9.62rem;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .our-mission h2 {
+    color: #fff;
+    font-family: Golos Text;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 3.25rem */
+  }
+  .our-mission p {
+    color: #fff;
+    width: 36.5rem;
+    font-family: Golos Text;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.9375rem; /* 155% */
+  }
+
+  /* <!---- VIBRANT'S MILESTONES SECTION ----> */
+  .about-milestones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 8.75rem;
+  }
+  h2 .head1 {
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    font-family: Golos Text;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+  }
+  h2 .head2 {
+    background: var(
+      --Colors-Gradient-Gradient,
+      linear-gradient(
+        90deg,
+        #3f6fea 0%,
+        #3f70ea 6.67%,
+        #3e72e9 13.33%,
+        #3d77e9 20%,
+        #3c7de7 26.67%,
+        #3b85e6 33.33%,
+        #398fe4 40%,
+        #3799e2 46.67%,
+        #34a4e1 53.33%,
+        #32afdf 60%,
+        #30b8dd 66.67%,
+        #2fc1dc 73.33%,
+        #2ec7da 80%,
+        #2dcbda 86.67%,
+        #2cced9 93.33%,
+        #2ccfd9 100%
+      )
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Golos Text;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+  }
+  .about-milestones p {
+    width: 34rem;
+    color: var(--Colors-Gray-Secondary-Text, #676a70);
+    text-align: center;
+    font-family: Golos Text;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 1.5rem;
+  }
+  .about-boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .about-boxes .sbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 16.75rem;
+    height: 11.1875rem;
+    flex-shrink: 0;
+    margin-top: 4rem;
+    background: linear-gradient(
+      131deg,
+      #4070ea -350.06%,
+      rgba(255, 255, 255, 0) 98.97%
+    );
+    backdrop-filter: blur(2px);
+    padding: 1rem 1.25rem;
+    z-index: 2;
+  }
+
+  .sbox h1 {
+    background: var(
+      --Colors-Gradient-Gradient,
+      linear-gradient(
+        90deg,
+        #3f6fea 0%,
+        #3f70ea 6.67%,
+        #3e72e9 13.33%,
+        #3d77e9 20%,
+        #3c7de7 26.67%,
+        #3b85e6 33.33%,
+        #398fe4 40%,
+        #3799e2 46.67%,
+        #34a4e1 53.33%,
+        #32afdf 60%,
+        #30b8dd 66.67%,
+        #2fc1dc 73.33%,
+        #2ec7da 80%,
+        #2dcbda 86.67%,
+        #2cced9 93.33%,
+        #2ccfd9 100%
+      )
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Golos Text;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+  }
+  .sbox p {
+    color: var(--Colors-Gray-Secondary-Text, #676a70);
+    font-family: Golos Text;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.9375rem;
+    width: 10.1875rem;
+    text-align: left;
+  }
+
+  #sbox1 h1 {
+    font-family: Golos Text;
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4.875rem;
+  }
+
+  /* <!---- TESTIMONIAL SECTION ----> */
+  .testimonial {
+    background-image: url(/images/tesimonialbg.svg);
+    background-color: #080f1f;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8.75rem;
+    padding-bottom: 8.75rem;
+  }
+  .testimonial-text {
+    display: flex;
+    align-items: flex-start;
+    padding: 9.19rem 10.56rem 3.88rem 12.56rem;
+  }
+  .testimonial-text img {
+    right: 4rem;
+    position: relative;
+  }
+  #testi {
+    width: 54.875rem;
+    color: #fff;
+    font-family: Golos Text;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+  }
+  .testimonial-name {
+    display: flex;
+    align-items: center;
+  }
+  #TN {
+    color: #fff;
+    font-family: Golos Text;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.9375rem;
+    margin-left: 17.56rem;
+    margin-right: 0;
+  }
+  #TN p {
+    color: rgba(255, 255, 255, 0.64);
+    font-family: Golos Text;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  #Vline {
+    position: relative;
+    left: 2.94rem;
+    width: 0.0625rem;
+    height: 2.75rem;
+    background: #4a5f89;
+    margin: 0;
+  }
+  .testimonial-name img {
+    margin-left: 5.32rem;
+  }
+  .testimonial-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .testimonial-button img {
+    margin-left: 1.5rem;
+  }
+  .arrow {
+    margin-right: 10rem;
+  }
+
+  /* <!---- TESTIMONIAL SECTION ----> */
+  .testimonial {
+    background-image: url(/images/tesimonialbg.svg);
+    background-color: #080f1f;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8.75rem;
+    padding-bottom: 8.75rem;
+  }
+  .testimonial-text {
+    display: flex;
+    align-items: flex-start;
+    padding: 9.19rem 10.56rem 3.88rem 12.56rem;
+  }
+  .testimonial-text img {
+    right: 4rem;
+    position: relative;
+  }
+  #testi {
+    width: 54.875rem;
+    color: #fff;
+    font-family: Golos Text;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+  }
+  .testimonial-name {
+    display: flex;
+    align-items: center;
+  }
+  #TN {
+    color: #fff;
+    font-family: Golos Text;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.9375rem;
+    margin-left: 17.56rem;
+    margin-right: 0;
+  }
+  #TN p {
+    color: rgba(255, 255, 255, 0.64);
+    font-family: Golos Text;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  #Vline {
+    position: relative;
+    left: 2.94rem;
+    width: 0.0625rem;
+    height: 2.75rem;
+    background: #4a5f89;
+    margin: 0;
+  }
+  .testimonial-name img {
+    margin-left: 5.32rem;
+  }
+  .testimonial-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .testimonial-button img {
+    margin-left: 1.5rem;
+  }
+  .arrow {
+    margin-right: 10rem;
+  }
+
+  /* <!---- SOLUTION SECTION ----> */
+  .solution {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    margin-top: 8.75rem;
+  }
+  .solution h2 {
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    font-family: Golos Text;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.25rem;
+    margin-bottom: 1rem;
+  }
+  .head1 {
+    font-family: Golos Text;
+    color: var(--Colors-Gray-Primary-Text, #090a0d);
+    font-size: 2.5rem;
+  }
+  .head2 {
+    font-family: Golos Text;
+    background: var(
+      --Colors-Gradient-Gradient,
+      linear-gradient(
+        90deg,
+        #3f6fea 0%,
+        #3f70ea 6.67%,
+        #3e72e9 13.33%,
+        #3d77e9 20%,
+        #3c7de7 26.67%,
+        #3b85e6 33.33%,
+        #398fe4 40%,
+        #3799e2 46.67%,
+        #34a4e1 53.33%,
+        #32afdf 60%,
+        #30b8dd 66.67%,
+        #2fc1dc 73.33%,
+        #2ec7da 80%,
+        #2dcbda 86.67%,
+        #2cced9 93.33%,
+        #2ccfd9 100%
+      )
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .solution p {
+    margin-bottom: 2rem;
+    margin-top: 0;
+  }
+  .sleft {
+    max-width: 37.83769rem;
+    height: auto;
+  }
+  .sleft img {
+    width: 100%;
+  }
+
+  .sright {
+    max-width: 22.4375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .sright p {
+    color: var(--Colors-Gray-Secondary-Text, #676a70);
+    font-family: Golos Text;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-align: left;
+  }
+  .Cbutton {
+    width: 12.9375rem;
+    height: 3.5rem;
+    display: inline-flex;
+    padding: 1.125rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--colors-brand-primary);
+    color: #fff;
+    font-family: Golos Text;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -0.01rem;
+    text-transform: capitalize;
+    margin: 0;
+    box-shadow: inset 0 0 0 0 #1b2250;
+    transition:
+      color 0.3s ease-in-out,
+      box-shadow 0.3s ease-in-out;
+  }
+  .Cbutton img {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  .Cbutton:hover {
+    box-shadow: inset 0 -3.5rem 0 0 #1b2250;
+  }
+}
+
+/* -----------for small screen devices------------ */
+@media screen and (max-width: 1440px) and (min-width: 769px) {
+  #main.about {
+    padding: 0 3.5vw;
+    /* <!---- CLIENTS SECTION ----> */
+    .inspire {
+      margin-top: 6.75vw;
+    }
+    .inspiration {
+      width: 41vw;
+    }
+    h5 {
+      font-size: 1.25vw;
+      line-height: 1.9375vw;
+      margin-bottom: 0.75vw;
+    }
+    h1 .line1 {
+      font-size: 3.5vw;
+    }
+    h1 .line2 {
+      font-size: 3.5vw;
+    }
+    .inspiration p {
+      width: 34vw;
+      font-size: 1vw;
+      margin-top: 1.5vw;
+    }
+
+    /* <!---- ABOUT IMAGES SECTION ----> */
+    .about-images {
+      margin-top: 8.69vw;
+    }
+    .img1 img {
+      position: absolute;
+      width: 34.875vw;
+      top: -5.19vw;
+      left: 0;
+    }
+    .img4 img {
+      width: 29.8125vw;
+      position: absolute;
+      top: 18.25vw;
+      left: 9.63vw;
+    }
+    .img2 img {
+      width: 29.8125vw;
+      margin-right: 2.8vw;
+    }
+    .img3 img {
+      width: 18.125vw;
+    }
+
+    /* <!---- OUR MISSION SECTION ----> */
+    .our-mission {
+      margin-top: 15vw;
+      background-image: url(/images/about-us/aboutbg.svg);
+      width: 100%;
+      height: 34.93vw;
+      padding: 8.75vw 9.62vw;
+    }
+    .our-mission h2 {
+      font-size: 2.5vw;
+    }
+    .our-mission p {
+      width: 36.5vw;
+      font-size: 1.25vw;
+      line-height: 1.9375vw; /* 155% */
+    }
+
+    /* <!---- VIBRANT'S MILESTONES SECTION ----> */
+    .about-milestones {
+      margin-top: 8.75vw;
+    }
+    h2 .head1 {
+      font-size: 2.5vw;
+    }
+    h2 .head2 {
+      font-size: 2.5vw;
+    }
+    .about-milestones p {
+      width: 34vw;
+      font-size: 1vw;
+      margin-top: 1.5vw;
+    }
+    .about-boxes {
+      gap: 2vw;
+    }
+    .about-boxes .sbox {
+      width: 16.75vw;
+      height: 11.1875vw;
+      flex-shrink: 0;
+      margin-top: 4vw;
+      padding: 1vw 1.25vw;
+      z-index: 2;
+    }
+
+    .sbox h1 {
+      font-size: 3.5vw;
+    }
+    .sbox p {
+      font-size: 1.25vw;
+      line-height: 1.9375vw; /* 155% */
+      width: 10.1875vw;
+    }
+
+    #sbox1 h1 {
+      font-size: 4.5vw;
+      line-height: 4.875vw;
+    }
+    /* <!---- TESTIMONIAL SECTION ----> */
+    .testimonial {
+      margin-top: 8.75vw;
+      padding-bottom: 8.75vw;
+    }
+    .testimonial-text {
+      padding: 9.19vw 10.56vw 3.88vw 12.56vw;
+    }
+    .testimonial-text img {
+      right: 4vw;
+      width: 5vw;
+      height: 5vw;
+      flex-shrink: 0;
+    }
+    #testi {
+      width: 54.875vw;
+      font-size: 2.5vw;
+    }
+
+    #TN {
+      font-size: 1.25vw;
+      line-height: 1.9375vw;
+      margin-left: 17.56vw;
+    }
+    #TN p {
+      font-size: 1vw;
+    }
+    #Vline {
+      left: 2.94vw;
+      width: 0.0625vw;
+      height: 2.75vw;
+    }
+    .testimonial-name img {
+      margin-left: 5.32vw;
+    }
+
+    .testimonial-button img {
+      margin-left: 1.5vw;
+      width: 3vw;
+      height: 3vw;
+      flex-shrink: 0;
+    }
+    .arrow {
+      margin-right: 10vw;
+    }
+
+    /* <!---- SOLUTION SECTION ----> */
+    .solution {
+      gap: 1vw;
+      padding: 0 8vw;
+      margin-top: 8.75vw;
+    }
+    .head1 {
+      font-family: Golos Text;
+      color: var(--Colors-Gray-Primary-Text, #090a0d);
+      font-size: 2.5vw;
+    }
+    .solution h2 {
+      margin-bottom: 1vw;
+    }
+    .solution p {
+      margin-bottom: 2vw;
+    }
+    .sleft {
+      max-width: 37.83769vw;
+      min-width: 28vw;
+    }
+    .sleft img {
+      width: 100%;
+    }
+    .sright {
+      max-width: 22.4375vw;
+    }
+
+    .sright h2 {
+      font-size: 2.5vw;
+    }
+    .sright p {
+      font-size: 1vw;
+    }
+    .Cbutton {
+      width: 12.9375vw;
+      height: 3.5vw;
+      padding: 1.125vw 2.5vw;
+      gap: 0.5vw;
+      font-size: 1vw;
+      letter-spacing: -0.01vw;
+    }
+    .Cbutton img {
+      width: 1.25vw;
+      height: 1.25vw;
+    }
+  }
+}
+
+/* -----------for small screen devices------------ */
+@media only screen and (max-width: 768px) {
+  #main.about {
+    &:after {
+      display: block;
+    }
+    /* <!---- CLIENTS SECTION ----> */
+    .inspire {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2.54rem;
+      padding: 0 1rem;
+    }
+    .inspiration {
+      text-align: center;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    h5 {
+      color: var(--Colors-Gray-Primary-Text, #090a0d);
+      text-align: center;
+      font-family: Golos Text;
+      font-size: 0.75rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.03125rem;
+      margin-bottom: 0.75rem;
+    }
+    h1 .line1 {
+      color: var(--Colors-Gray-Primary-Text, #090a0d);
+      text-align: center;
+      font-family: Golos Text;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.625rem;
+    }
+    h1 .line2 {
+      background: var(
+        --Colors-Gradient-Gradient,
+        linear-gradient(
+          90deg,
+          #3f6fea 0%,
+          #3f70ea 6.67%,
+          #3e72e9 13.33%,
+          #3d77e9 20%,
+          #3c7de7 26.67%,
+          #3b85e6 33.33%,
+          #398fe4 40%,
+          #3799e2 46.67%,
+          #34a4e1 53.33%,
+          #32afdf 60%,
+          #30b8dd 66.67%,
+          #2fc1dc 73.33%,
+          #2ec7da 80%,
+          #2dcbda 86.67%,
+          #2cced9 93.33%,
+          #2ccfd9 100%
+        )
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: Golos Text;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.625rem;
+    }
+    .inspiration p {
+      width: 100%;
+      color: var(--Colors-Gray-Primary-Text, #090a0d);
+      text-align: center;
+      font-family: Golos Text;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+      margin-top: 1rem;
+    }
+
+    /* <!---- ABOUT IMAGES SECTION ----> */
+    .about-images {
+      // height: 11.75rem;
+      width: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      flex-shrink: 0;
+      align-items: center;
+      justify-content: center;
+      margin-top: 3rem;
+    }
+    .img1 {
+      position: relative;
+      height: 14.719rem;
+    }
+
+    .img1 img {
+      position: relative;
+      width: 100%;
+      top: 0;
+      object-fit: contain;
+    }
+    .img4 img {
+      display: none;
+    }
+    .img2 img {
+      display: none;
+    }
+    .img3 img {
+      display: none;
+      // width: 100%;
+      // height: 11.75rem;
+      // object-fit: contain;
+    }
+
+    /* <!---- OUR MISSION SECTION ----> */
+    .our-mission {
+      margin-top: 15rem;
+      // background-image: url(/images/about-us/aboutbg.svg);
+      background-image: none;
+      background-color: #080f1f;
+      width: 100%;
+      height: 24rem;
+      display: flex;
+      flex-direction: column;
+      padding: 4rem 1rem;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 0rem;
+    }
+    .our-mission h2 {
+      color: #fff;
+      font-family: Golos Text;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.625rem;
+    }
+    .our-mission p {
+      color: #fff;
+      width: 100%;
+      font-family: Golos Text;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+    }
+
+    /* <!---- VIBRANT'S MILESTONES SECTION ----> */
+    .about-milestones {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 1rem;
+      margin-top: 4rem;
+    }
+    h2 .head1 {
+      color: var(--Colors-Gray-Primary-Text, #090a0d);
+      font-family: Golos Text;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.625rem;
+    }
+    h2 .head2 {
+      background: var(
+        --Colors-Gradient-Gradient,
+        linear-gradient(
+          90deg,
+          #3f6fea 0%,
+          #3f70ea 6.67%,
+          #3e72e9 13.33%,
+          #3d77e9 20%,
+          #3c7de7 26.67%,
+          #3b85e6 33.33%,
+          #398fe4 40%,
+          #3799e2 46.67%,
+          #34a4e1 53.33%,
+          #32afdf 60%,
+          #30b8dd 66.67%,
+          #2fc1dc 73.33%,
+          #2ec7da 80%,
+          #2dcbda 86.67%,
+          #2cced9 93.33%,
+          #2ccfd9 100%
+        )
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: Golos Text;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 2.625rem;
+    }
+    .about-milestones p {
+      width: 100%;
+      color: var(--Colors-Gray-Secondary-Text, #676a70);
+      text-align: center;
+      font-family: Golos Text;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+      margin-top: 1rem;
+    }
+    .about-boxes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      row-gap: 1.5rem;
+      column-gap: 1rem;
+      margin-top: 3rem;
+    }
+    .about-boxes .sbox {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 10.1875rem;
+      height: 7.75rem;
+      flex-shrink: 0;
+      margin-top: 0;
+      background: linear-gradient(
+        131deg,
+        #4070ea -350.06%,
+        rgba(255, 255, 255, 0) 98.97%
+      );
+      backdrop-filter: blur(2px);
+      padding: 1rem 1.25rem;
+      z-index: 2;
+    }
+
+    .sbox h1 {
+      background: var(
+        --Colors-Gradient-Gradient,
+        linear-gradient(
+          90deg,
+          #3f6fea 0%,
+          #3f70ea 6.67%,
+          #3e72e9 13.33%,
+          #3d77e9 20%,
+          #3c7de7 26.67%,
+          #3b85e6 33.33%,
+          #398fe4 40%,
+          #3799e2 46.67%,
+          #34a4e1 53.33%,
+          #32afdf 60%,
+          #30b8dd 66.67%,
+          #2fc1dc 73.33%,
+          #2ec7da 80%,
+          #2dcbda 86.67%,
+          #2cced9 93.33%,
+          #2ccfd9 100%
+        )
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: Golos Text;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 2.5rem;
+    }
+    .sbox p {
+      color: var(--Colors-Gray-Secondary-Text, #676a70);
+      font-family: Golos Text;
+      font-size: 0.875rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 160%;
+      width: 8.1875rem;
+      text-align: left;
+    }
+
+    #sbox1 h1 {
+      font-family: Golos Text;
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 2.5rem;
+    }
+
+    /* <!---- TESTIMONIAL SECTION ----> */
+    .testimonial {
+      width: 100%;
+      flex-direction: column;
+      padding: 7.81rem 0 4rem;
+      margin-top: 4rem;
+    }
+    .testimonial-text {
+      display: flex;
+      flex-direction: column;
+      padding: 0 1rem 2.5rem;
+    }
+    .testimonial-text img {
+      width: 2.5rem;
+      height: 2.5rem;
+      flex-shrink: 0;
+      right: 0;
+      position: relative;
+    }
+    #testi {
+      width: auto;
+      font-size: 1.5rem;
+    }
+    .testimonial-name {
+      width: auto;
+      display: flex;
+    }
+    #TN {
+      font-size: 1rem;
+      margin: 0 1rem;
+    }
+    #TN p {
+      font-size: 0.875rem;
+    }
+    .testimonial-button {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      margin-top: 1.81rem;
+    }
+    .arrow {
+      margin-right: 1rem;
+    }
+
+    /* <!---- SOLUTION SECTION ----> */
+
+    .solution {
+      flex-direction: column;
+      gap: 3.54rem;
+      padding: 0 1rem;
+      margin-top: 4rem;
+      align-items: flex-start;
+    }
+    .sleft img {
+      width: 100%;
+    }
+
+    .sright {
+      width: 100%;
+    }
+  }
+}
