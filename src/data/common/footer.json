@@ -22,16 +22,16 @@
         "heading": "Company",
         "elements": [
           {
-            "text": "About Us",
-            "link": "/about"
+            "text": "Careers",
+            "link": "/career"
           },
           {
-            "text": "Contact",
+            "text": "Contact Us",
             "link": "/contact"
           },
           {
-            "text": "Clients",
-            "link": "/"
+            "text": "Blog",
+            "link": "/blogs"
           }
         ]
       },
